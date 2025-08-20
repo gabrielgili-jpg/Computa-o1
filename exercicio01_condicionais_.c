@@ -7,7 +7,7 @@ int main()
 	int total;
 
 
-	printf("Qual a quantidade de alunos que irC#o enrar?:");
+	printf("Qual a quantidade de alunos que irão entrar?:");
 	scanf("%d", &alunos);
 
 	printf("Qual a quantidade de monitores?:");
@@ -16,9 +16,9 @@ int main()
 	total=alunos+monitores;
 
 	if (total <=50)
-		printf("Possivel levar todos!");
+		printf("Possivel levar todos em apenas uma viagem!");
 	else
-		printf ("Impossivel levar todos!");
+		printf ("Impossivel levar todos em apenas uma viagem!");
 
 	return 0;
 }
